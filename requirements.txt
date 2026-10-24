@@ -1,0 +1,8 @@
+opencv-python>=4.8
+Pillow>=10.0
+qrcode[pil]>=7.4
+# Opcional (detección más robusta; requiere la librería nativa zbar):
+# pyzbar>=0.1.9
+# Opcional, solo Windows: muestra el NOMBRE de cada cámara (p. ej. "Logitech C920") en el selector.
+# Sin esto todo funciona igual, pero las cámaras aparecen como "Cámara 0", "Cámara 1"...
+# pygrabber>=0.2
